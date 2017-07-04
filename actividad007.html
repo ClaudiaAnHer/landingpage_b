@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Landing Page con Bootstrap </title>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<script type="text/javascript" src="js/jquery-3.2.1.js"></script>
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> 
+
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	
+</head>
+
+<body>
+<!--inicio barra de navegacion-->
+      <nav class="navbar navbar_dl navbar-fixed-top">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="http://www.aspergerchile.cl/"> 
+          <div class="img-responsive">
+          <img src="images/latam_logo.png" class="logo">
+          </div>
+      </a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="menu_nav navbar-nav">
+        </ul>
+        </li>
+      </ul>
+  
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#equipo"> Equipo</a></li>
+        <li><a href="#blog"> Blog</a></li>
+        <li><a href="#contacto"> Contacto</a></li>
+      </ul>
+        
+      
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<!--FIN BARRA NAVEGACION-->
+
+<!-- carrusel -->
+<div class="carousel slide mycarousel" data-ride="carousel">
+  <!-- imagenes -->
+  <div class="carousel-inner">
+	    <div class="item active img-bg">
+	     	<img src="images/bg.jpeg" alt="ruleta rusa">
+	    </div>
+
+        <div class="container">
+	    	<div class="row">
+	    		<div class="col-md-6 col-md-offset-3 margin-h1">
+	    			<h1> comienza una nueva vida y únete al mundo tecnológico </h1>
+
+
+		    			<button class="btn boton1" type="submit">Comienza Acá!</button>
+		    		
+		    			<button class="btn boton2" type="submit">Más Info</button>		    	
+
+
+	    			<p class="p1"> Hay una escasez gigante de desarrolladores en el mundo y más aún en Latinoamérica, se necesitan mas desarrolladores y Tú puedes ser uno!</p>
+	    		</div>
+	    	</div>
+       	</div>
+
+  </div>
+</div>
+<!-- FIN CAROUSEL -->
+<!-- seccion2 -->
+<div class="container">
+	<div class="row">
+		<div class="col-md-6 col-md-offset-3 margin-seccion">
+			<h2>el bootcamp de programación mas grande de latinoamérica</h2>
+			<p class="p2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+			<div class="foto_gente">
+				<img src="images/viewing-gallery-for-happy-people.png" alt="grupo de personas sonriendo" class="foto_gente">
+			</div>
+		</div>		
+	</div>
+</div>
+
+<!-- jumbotron 1-->
+<div class="jumbotron1">
+	<div class="col-md-6 col-md-offset-3 margin-seccion">
+		<h2>solicita información e inscríbete</h2>
+			<p class="p2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat.</p>
+		<div class="box-boton">
+			<a class="btn boton" href="#" role="button">Inscribete!</a>
+		</div>
+			<p class="p2">Vive la experiencia Desafío Latam!</p>
+	</div>
+</div>
+
+<!-- jumbotron 2-->
+<div class="jumbotron2">
+	<div class="col-md-2 col-md-offset-3 margin-seccion">
+	<h3> Contacto </h3>
+	<p> Desafío Latam </p>
+	<p> Ezequías Alliende 2361 </p>	
+	<p> P: +569 5117 7975 </p>	
+	<a href="http://www.google.cl" class="mail"> inscripciones@desafiolatam.com </a>
+	</div>
+	<div class="col-md-4 col-md-offset-1 margin-seccion">
+	<h3> Suscribete </h3>
+	<form class="form-inline">
+  	 	 <div class="form-group">
+	    <label for="exampleInputEmail2"></label>
+	    <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Ingresa tu email...">
+	  	</div>
+	  	<button type="submit" class="btn boton_enviar"> Enviar </button>
+	</form>
+	</div>
+</div>
+
+<!-- footer -->
+	<div class="row">
+		<div class="col-md-12">		 
+			<footer class="footer">
+				<div class="container">
+				<h1 class="text-footer"> desafiolatam 2017 - curso front-end g4</h1>
+			    </div>
+			</footer>
+		</div>
+	</div>
+</body>
+</html>
